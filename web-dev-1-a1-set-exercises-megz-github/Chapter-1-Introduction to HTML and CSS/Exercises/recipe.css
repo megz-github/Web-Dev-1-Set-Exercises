@@ -1,0 +1,38 @@
+body{
+    background-image: url(EX1.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: hue;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    align-items: center;
+    
+}
+ .rece{
+    text-align: center;
+    color: aliceblue;
+ }
+
+ h2{
+    text-align: center;
+    color: aliceblue;
+ }
+
+ p{
+    text-align: center;
+    color: wheat;
+ }
+
+ ol{
+    text-align: center;
+    color: wheat;
+ }
+
+ ul{
+    text-align: center;
+    color: wheat;
+ }
+
+ .dot{
+    text-align: center;
+ }
+ 
