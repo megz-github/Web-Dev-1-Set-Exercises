@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    /* Making the body and html elements occupy the full height of the viewport */
+    height: 100%;
+    /* Using flexbox to vertically and horizontally center the content */
+    display: flex;
+    justify-content: center; /* Horizontally centering */
+    align-items: center; /* Vertically centering */
+    /* Setting a background color for the body */
+    background-color: #f0f0f0;
+}
+
+video {
+    /* Making sure the video doesn't exceed the width of its container */
+    max-width: 100%;
+    /* Making sure the video doesn't exceed the height of its container */
+    max-height: 100%;
+    /* Making the video a block-level element so it takes up the full width available */
+    display: block;
+}

@@ -1,0 +1,39 @@
+div {
+    display: inline-block; /* Allows divs to sit next to each other horizontally */
+    font-family: sans-serif; /* Sets the font family to a generic sans-serif font */
+    font-size: 20px; /* Sets the font size to 20 pixels */
+    margin: 25px; /* Sets the margin around the div elements to 25 pixels */
+    border: 4px solid black; /* Sets a solid black border with a thickness of 4 pixels */
+    line-height: 100px; /* Sets the line height to 100 pixels */
+    text-align: center; /* Centers the text horizontally within the div elements */
+    width: 200px; /* Sets the width of the div elements to 200 pixels */
+    height: 200px; /* Sets the height of the div elements to 200 pixels */
+}
+
+body {
+    margin: 100px auto; /* Sets top and bottom margin to 100 pixels and centers horizontally */
+    width: max-content; /* Allows the body to expand to fit its content */
+}
+
+#a {
+    border-color: blueviolet; /* Sets border color to blueviolet */
+    box-shadow: 12px 12px 12px red; /* Adds a red box shadow with an offset of 12 pixels */
+}
+
+#b {
+    border-color: rgb(5, 245, 1); /* Sets border color to a specific shade of green */
+    box-shadow: 12px 12px 12px rgb(15, 15, 15) inset; /* Adds an inset box shadow with a specific shade of gray and an offset of 12 pixels */
+}
+
+#c {
+    border-color: rgb(228, 149, 0); /* Sets border color to a specific shade of orange */
+    border-radius: 14px; /* Adds rounded corners with a radius of 14 pixels */
+    box-shadow: 0 0 0 9px blue, /* Adds a blue shadow with a spread of 9 pixels */
+                0 0 0 20px red, /* Adds a red shadow with a spread of 20 pixels */
+                0 0 0 30px green; /* Adds a green shadow with a spread of 30 pixels */
+}
+
+#d {
+    border-color: brown; /* Sets border color to brown */
+    text-shadow:5px 5px 1px; /* Adds a brown text shadow with an offset of 5 pixels */
+}

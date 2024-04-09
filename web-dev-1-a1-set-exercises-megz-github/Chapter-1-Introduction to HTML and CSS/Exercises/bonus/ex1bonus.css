@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the entire document */
+    line-height: 1.6; /* Set the line height for better readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #404040; /* Set background color */
+    color: #ffffff; /* Set text color */
+}
+
+header {
+    background-color: #007bff; /* Set background color */
+    color: #000000; /* Set text color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center-align text */
+}
+
+main {
+    padding: 20px; /* Add padding */
+}
+
+section {
+    margin-bottom: 20px; /* Add margin bottom to separate sections */
+}
+
+h2, h3 {
+    color: #00ffff; /* Set heading text color */
+}

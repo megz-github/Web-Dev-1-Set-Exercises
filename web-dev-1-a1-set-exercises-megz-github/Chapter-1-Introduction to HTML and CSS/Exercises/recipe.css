@@ -1,0 +1,37 @@
+body {
+   background-image: url(EX1.png); /* Setting the background image */
+   background-color: rgba(0, 0, 0, 0.5); /* Setting a semi-transparent black background color */
+   background-blend-mode: hue; /* Blending mode for the background */
+   background-repeat: no-repeat; /* Preventing background image from repeating */
+   background-size: 120%; /* Setting the size of the background image */
+   align-items: center; /* Aligning items in the center */
+}
+
+.rece {
+   text-align: center; /* Center-aligning text within elements with the class 'rece' */
+   color: aliceblue; /* Setting the text color */
+}
+
+h2 {
+   text-align: center; /* Center-aligning text within <h2> elements */
+   color: aliceblue; /* Setting the text color */
+}
+
+p {
+   text-align: center; /* Center-aligning text within <p> elements */
+   color: wheat; /* Setting the text color */
+}
+
+ol {
+   text-align: center; /* Center-aligning text within <ol> elements */
+   color: wheat; /* Setting the text color */
+}
+
+ul {
+   text-align: center; /* Center-aligning text within <ul> elements */
+   color: wheat; /* Setting the text color */
+}
+
+.dot {
+   text-align: center; /* Center-aligning text within elements with the class 'dot' */
+}

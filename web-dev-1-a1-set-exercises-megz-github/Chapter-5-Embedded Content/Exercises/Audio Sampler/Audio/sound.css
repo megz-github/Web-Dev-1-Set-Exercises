@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Center items vertically */
+    position: relative; /* Relative positioning for the header */
+}
+
+header {
+    text-align: center;
+    color: #dcdcdc;
+    position: absolute; /* Absolute positioning for the header */
+    top: 0; /* Align to the top of the parent (body) */
+    left: 50%; /* Align horizontally to the center */
+    transform: translate(-50%, 0); /* Adjust horizontally to center */
+    text-shadow: #2f2f2f;
+}
+
+.soundboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 600px;
+}
+
+.sound-button {
+    background-color: #009fc3;
+    border: none;
+    color: rgb(31, 31, 31);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.sound-button:hover {
+    background-color: #09ff00;
+}
